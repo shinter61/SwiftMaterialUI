@@ -1,3 +1,13 @@
-struct SwiftMaterialUI {
-    var text = "Hello, World!"
+import SwiftUI
+
+@available(OSX 10.15.0, *)
+public struct SMDButton: View {
+    public var body: some View {
+        Button(action: {
+        }) {
+            VStack {
+                Text("サンプルボタン")
+            }
+        }
+    }
 }
